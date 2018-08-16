@@ -111,8 +111,10 @@ h3 {
 
 
 
-#about {
-	padding-bottom: 5em;
+#sobre {
+    padding-bottom: 5em;
+    background-color: black;
+    color: white;
 }
 
 .ParentDiv {
