@@ -1,11 +1,15 @@
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+let lastScrollTop = 0;
+window.addEventListener("scroll", function(){ 
+  let st = window.pageYOffset || document.documentElement.scrollTop;
+   if (st > lastScrollTop){
+     document.getElementById("navbar").style.top = "-300px";
+   } else {
     document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-300px";
-  }
-}
+   }
 
-$('body').scrollspy({ target: '#navbar' })
+
+
+   lastScrollTop = st <= 0 ? 0 : st;
+}, false);
+
+/* $('body').scrollspy({ target: '#navbar' }) */
