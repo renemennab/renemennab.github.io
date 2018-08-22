@@ -23,7 +23,9 @@ section {
     color: white;
 }
 
-#navbar a:hover {
+
+
+#navbar li a:hover {
     background-color: #fff;
     color: black;
 }
