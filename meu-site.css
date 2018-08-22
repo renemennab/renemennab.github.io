@@ -71,7 +71,8 @@ nav li {
 
 h1 {
     font-size: 3.5rem; 
-    font-weight: 700
+    font-weight: 700;
+    text-align: center;
 }
 
 h2 {
@@ -96,6 +97,7 @@ h2 {
 #portfolio {
     background-color: black;
     color: white;
+    text-align: center;
 }
 
 .whiteTitleLine {
@@ -125,7 +127,8 @@ h2 {
 /* Footer */
 footer, footer a, footer a:hover {
     background-color: Black;
-	color: white;
+    color: white;
+    text-align: center;
 }
 
 /* Media queries */
