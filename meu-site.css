@@ -1,6 +1,10 @@
+html{
+    font-size: 100%;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
-	font-size: 100%;
+	
 	position: relative;
 }
 
@@ -23,15 +27,13 @@ section {
     color: white;
 }
 
-
+nav li {
+      padding: 10px 15px;
+}
 
 #navbar li a:hover {
     background-color: #fff;
     color: black;
-}
-
-nav li {
-      padding: 10px 15px;
 }
 
 /* Seção home */
@@ -45,6 +47,7 @@ nav li {
     font-size: 2rem; 
     font-weight: 300;
     color: white;
+    text-align: center;
 }
 
 .homeDiv {
@@ -74,7 +77,6 @@ nav li {
 h1 {
     font-size: 3.5rem; 
     font-weight: 700;
-    text-align: center;
 }
 
 h2 {
@@ -85,7 +87,7 @@ h2 {
 
 /* Seção sobre */
 #sobre {
-    padding-bottom: 5em;
+    padding-bottom: 5rem;
 }
 
 .BlackTitleLine {
@@ -93,6 +95,14 @@ h2 {
     height:0.15em;
     background: #404041;
     margin: 7% auto;
+}
+
+#profileImage {
+    height: 80%; 
+    width: 80%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 /* Seção portfolio */
@@ -110,7 +120,8 @@ h2 {
 }
 
 .portPlaceHold{
-    width: 90%; height: 35%;
+    width: 90%; 
+    height: 35%;
     margin: 0 0 3em;
 }
 
@@ -137,7 +148,7 @@ footer, footer a, footer a:hover {
 /* Media queries */
 @media (max-width: 750px) {
     h1 {
-        font-size: 2.3em;
+        font-size: 2em;
     }
 
     #home {
