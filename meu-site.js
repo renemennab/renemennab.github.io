@@ -11,3 +11,11 @@ window.addEventListener("scroll", function(){
 
    lastScrollTop = st <= 0 ? 0 : st;
 }, false);
+
+window.addEventListener('click', function(event){
+  const menu = document.getElementById('movelmenu');
+  const toggler = document.getElementsByClassName('navbar-toggler');
+	if (event.target != menu && event.target.parentNode != menu){
+        toggler[0].click();
+    }
+});
