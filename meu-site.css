@@ -4,7 +4,6 @@ html{
 
 body {
     font-family: 'Raleway', sans-serif;
-	
 	position: relative;
 }
 
@@ -149,10 +148,6 @@ footer, footer a, footer a:hover {
 
 /* Media queries */
 @media (max-width: 750px) {
-    h1 {
-        font-size: 2em;
-    }
-
     #home {
         height: 30rem;
         background: url(https://images.pexels.com/photos/34580/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center; 
@@ -162,10 +157,14 @@ footer, footer a, footer a:hover {
         background-size: cover;
         font-size: 1.5rem;
     }
-
-
+    
+    
     #homeBgOpacity {
-	    height: 30rem;
+        height: 30rem;
+    }
+    
+    h1 {
+        font-size: 2em;
     }
 
     #sobre p, #portfolio p{
