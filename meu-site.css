@@ -110,6 +110,7 @@ h2 {
     background-color: black;
     color: white;
     text-align: center;
+    padding-bottom: 5em;
 }
 
 .whiteTitleLine {
@@ -120,10 +121,13 @@ h2 {
     margin-bottom: 6rem;
 }
 
-.portPlaceHold{
+.portfolioImg{
     width: 90%; 
-    height: 35%;
+    height: 55%;
+    min-width: 300px;
+    max-width: 400px;
     margin: 0 0 3em;
+    border-radius: 2%;
 }
 
 /* Seção habilidades */
