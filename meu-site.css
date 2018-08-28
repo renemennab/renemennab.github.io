@@ -121,6 +121,12 @@ h2 {
     margin-bottom: 6rem;
 }
 
+#portfolio h3 {
+    text-align: left;
+    margin-bottom: 2em;
+    font-weight: 900;
+}
+
 .portfolioImg{
     width: 90%; 
     height: 55%;
