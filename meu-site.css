@@ -121,10 +121,12 @@ h2 {
     margin-bottom: 6rem;
 }
 
-#portfolio h3 {
+#portfolio h3, #portfolio a {
     text-align: left;
     margin-bottom: 2em;
     font-weight: 900;
+    background-color: Black;
+    color: white;
 }
 
 .portfolioImg{
@@ -154,6 +156,10 @@ footer, footer a, footer a:hover {
     background-color: Black;
     color: white;
     text-align: center;
+}
+
+.footerImage {
+    height: 45px;
 }
 
 /* Media queries */
