@@ -158,6 +158,7 @@ h2 {
 footer, footer a, footer a:hover {
     background-color: Black;
     color: white;
+    text-decoration: none;
     text-align: center;
 }
 
